@@ -1,0 +1,42 @@
+/* Estilos para la página web con imagen de fondo */
+body {
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: #000000;
+    padding: 20px;
+    background-image: url('imagen.avif'); 
+    background-size: cover; 
+    background-position: center; 
+    background-attachment: fixed; 
+}
+
+/* Estilos para el formulario */
+form {
+    border: 3px solid #ed5836;
+    padding: 20px;
+    background-color: rgb(255, 239, 97); 
+    max-width: 500px;
+    margin: auto;
+}
+
+label {
+    display: block;
+    margin-top: 20px;
+}
+
+input {
+    padding: 5px;
+    width: 100%;
+}
+
+input[type="submit"] {
+    background-color: #4bd550;
+    color: rgb(255, 255, 255);
+    border: none;
+    padding: 10px;
+    cursor: pointer;
+    margin-top: 20px; /* Mayor separación */
+}
+
+input[type="submit"]:hover {
+    background-color: #45a049;
+}
